@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-image: url(../imgs/orqa\ fon.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 140px;
+}
+
+ul{
+    list-style: none;
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: #F39C11;
+}
+
+
+.user_info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.user_info>div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .container{
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+
+.hero h1{
+    font-family: "Lobster", serif;
+    font-size: 80px;
+    font-weight:200;
+    margin-bottom: 450px;
+}
+
+.hero button{
+    border: none;
+    background-color: #F39C11;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+   
+
+.about_section{
+    background-color: #FFF4D8;
+}
+.about_section .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 70px 0px;
+    justify-content: space-between;
+}
+
+
+.about_info{
+    width: 550px;
+} 
+.about_img img{
+    width: 550px;
+}
+
+.about_info h1{
+    font-family: "Lobster", serif;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight:200;
+}
+.about_info p {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.about_info button{
+   color: white;
+   padding: 12px 20px;
+   border-radius: 4px;
+    background-color: #F39C11;
+    border: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_features {
+    background-color:#3D210C;
+    color: #FFF4D8;
+}
+.section_features .container{
+    padding: 0px 90px;
+}
+.section_features .container h1{
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 500;
+
+}
+.block_features{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+.block_features .card{
+    width: 200px;
+   
+}
+
+
+
+
+
+
+
+.section_menu{
+    background-color: #FFF4D8;
+}
+.section_menu .container{
+    padding: 50px 90px;
+}
+.section_menu .container> h1{
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+   font-size: 50px;
+   font-weight: 400;
+   margin-bottom: 10px;
+}
+.section_menu .container .button{
+    display: flex;
+    justify-content: right;
+}
+.section_menu .container .button>button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+.section_menu .container .button>button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.section_menu .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.cards .box{
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cards .box h2,p, .icon{
+    margin-bottom: 10px;
+}
+.cards .box>img{
+    width: 280px;
+}
+.box_buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box .icon i{
+ color: orange;
+}
+.box_buy button{
+    display: flex;
+    align-items: center;
+    gap:6px;
+border:1px solid orange;
+border-radius: 10px;
+padding: 3px 10px;
+background-color: white;
+color: orange;
+transform: scale(0.9);
+}
+.box_buy button:hover{
+    transform: scale(1);
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: #3D210C;
+    
+}
+
+
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10px;
+    align-items: start;
+}
+
+
+.footer_logo{
+    width: 300px;
+    color: #fff4d887;
+
+}
+
+
+.footer_logo img{
+    margin-bottom: 10px;
+}
+
+
+.footer_logo p{
+    margin-bottom: 10px;
+}
+
+
+.footer_contact{
+    width: 300px;
+    color:  #fff4d887;
+}
+
+
+.footer_contact .location{
+    display: flex;
+    align-items: start;
+    gap: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.footer_contact .location img{
+    width: 15px;
+}
+.footer_contact .call{
+    display: flex;
+    gap: 5px;
+    align-items: start;
+    margin-bottom: 10px;
+}
+.footer_contact .call img{
+    width: 15px;
+}
+
+.footer_contact .gmail{
+    display: flex;
+    gap: 5px;
+    align-items: start;
+    margin-bottom: 10px;
+}
+.footer_contact .gmail img{
+    width: 15px;
+}
+
+
+
+
+.subsicribe_us{
+    width: 300px;
+    color:  #fff4d887;
+}
+.subsicribe_us button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+}
+.subsicribe_us input{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.subsicribe_us button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.subsicribe_us h2{
+    margin-bottom: 10px ;
+}
+.subsicribe_us p{
+    margin-top: 10px;
+}
+.end{
+    color: #FFF4D8;
+    margin: 0 auto;
+}
+footer .container p:hover, h1:hover, h2:hover{
+    color: #FFF4D8;
+}
+
+
+.phone_menu{
+    display: none;
+}
+
+
+
+@media(max-width:476px){
+    .container{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .links{
+        display: none;
+    }
+    .phone_menu{
+        display: block;
+    }
+.logo{
+display: flex;
+align-items: center;
+gap: 10px;
+font-size: 26px;
+    color: white;
+}
+.logo img{
+    width: 100px;
+}
+.user_info>div{
+    width: 36px;
+    height: 36px;
+    font-size: 12px;
+}
+header{
+    background-image: url(../imgs/media\ orqa\ fon.png);
+    background-size: 100%;
+}
+.hero h1{
+    font-size: 42px;
+    padding: 0px 30px;
+}
+.about_info{
+    width: 100%;
+    text-align: center;
+}
+.about_img img{
+    width: 100%;
+    text-align: center;
+}
+.about_section .container{
+    padding: 40px 0px;
+
+}
+.about_info p{
+    line-height: 20px;
+}
+.about_info button{
+    margin-bottom: 20px;
+}
+.block_features{
+    justify-content: center;
+}
+.section_features .container h1{
+    padding: 40px;
+}
+.block_features .card{
+    border-bottom: 2px solid white;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.block_features :nth-child(4){
+    border-bottom: none;
+}
+.section_menu .cards{
+    justify-content: center;
+}
+.section_menu .cards .box{
+    margin-bottom: 15px;
+}
+.section_menu .container> h1{
+    font-size: 30px;
+}
+.section_menu .container{
+    padding: 20px 0px;
+}
+.section_menu .container .button>button{
+margin-right: 20px;
+}
+.footer_logo{
+margin-bottom: 15px;
+}
+.footer_contact{
+    margin-bottom: 15px;
+    }
+    .subsicribe_us{
+        margin-bottom: 15px;
+        }
+        .subsicribe_us input{
+            padding: 10px 80px;
+            text-align: left;
+        }
+}
+
+
+
+
